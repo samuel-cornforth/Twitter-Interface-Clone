@@ -64,9 +64,13 @@ p {
   font-weight: 500;
 }
 
-button {
+button, .button {
   background-color: var(--twitter-blue);
   color: white;
+}
+
+.button {
+  padding: 10px 20px;
 }
 
 output {
